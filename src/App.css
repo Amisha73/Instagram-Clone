@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,112 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.signup-container {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.instagram-logo{
+  width: 150px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  filter: drop-shadow(0 1px 5px rgba(0, 0, 0, 0.1));
+  transition: transform 0.2s;
+}
+.instagram-logo:hover{
+  transform: scale(1.05);
+}
+
+.signup-message {
+  font-size: 20px;
+  color: #777;
+  font-weight: 600;
+}
+.facebook-button {
+  background-color: #0c77eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.facebook-button img{
+  width: 30px;
+}
+.facebook-button:hover{
+  background-color: #0b6bd2;
+}
+.divider-container{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.divider-line{
+  width: 170px;
+}
+.divider-text{
+  font-size: 14px;
+  font-weight: 600;
+  color: #777;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  font-size: 16px;
+}
+form input {
+  padding: 6px;
+}
+.signup-button {
+  background-color: #238dff;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.signup-button:hover {
+  background-color: #0f6dd2;
+}
+.privacy-policy {
+  margin: 20px 0;
+  font-size: 12px;
+  color: #777;
+}
+.redirect-message {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.redirect-message a {
+  color: #0056b3;
+  text-decoration: none;
+}
+.redirect-message a:hover {
+  text-decoration: underline;
+}
+.forgot-password {
+  color: #0056b3;
+  font-size: 14px;
+  text-decoration: none;
+}
+.forgot-password:hover{
+  text-decoration: underline;
 }
